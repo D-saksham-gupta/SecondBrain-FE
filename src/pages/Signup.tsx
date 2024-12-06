@@ -38,6 +38,12 @@ export function Signup() {
             Signup
           </button>
         </div>
+        <span className="flex text-md items-center text-black-500 font-bold font-serif py-4 justify-center">
+          Already have an account?{" "}
+          <a className="text-purple-600 p-2" href="/">
+            Login
+          </a>
+        </span>
       </div>
     </div>
   );
