@@ -19,7 +19,7 @@ export function Signup() {
       password: password,
     });
     alert("You have signed up");
-    navigate("/signin");
+    navigate("/");
   }
   return (
     <div className="h-screen w-screen bg-gray-200 flex justify-center items-center">
