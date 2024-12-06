@@ -40,9 +40,14 @@ export function Signup() {
         </div>
         <span className="flex text-md items-center text-black-500 font-bold font-serif py-4 justify-center">
           Already have an account?{" "}
-          <a className="text-purple-600 p-2" href="/">
+          <button
+            className="text-purple-600 p-2"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
             Login
-          </a>
+          </button>
         </span>
       </div>
     </div>
