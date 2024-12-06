@@ -1,6 +1,6 @@
 import { DeleteIcon } from "../icons/DeleteIcon";
 import { DocIcon } from "../icons/DocIcon";
-import { ShareIcon } from "../icons/ShareIcon";
+import { Button } from "./Button";
 
 interface CardProps {
   title: string;
