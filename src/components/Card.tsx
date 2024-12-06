@@ -23,7 +23,7 @@ export function Card({ title, link, type }: CardProps) {
           <div className="flex items-center">
             <div className="pr-2 text-gray-500 font-bold">
               <a href={link} target="_blank">
-                <ShareIcon />
+                <Button variant="secondary" size="sm" text="Open Link" />
               </a>
             </div>
             <div className="text-gray-500">
