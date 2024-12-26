@@ -33,7 +33,7 @@ export function Signup() {
         <div className="flex justify-center pt-4s">
           <button
             onClick={signup}
-            className="bg-purple-600 text-white w-full py-1 px-4 text-md rounded-md p-4 m-1.5 items-center justify-center"
+            className="bg-purple-600 hover:bg-purple-300 text-white w-full py-1 px-4 text-md rounded-md p-4 m-1.5 items-center justify-center"
           >
             Signup
           </button>
